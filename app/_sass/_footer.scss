@@ -3,7 +3,6 @@
  */
 .site-footer {
   border-top: 5px solid $grey-color-light;
-  //border-bottom: $spacing-unit solid $grey-color-dark;
   padding-right: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
 }
@@ -61,8 +60,6 @@
 
 @include media-query($on-palm) {
   .social-media-list li {
-    //padding: 5px;
-    //display: inline;
   }
 
   .footer-col {
