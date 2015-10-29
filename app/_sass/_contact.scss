@@ -1,0 +1,72 @@
+.contact {
+  background-color: $grey-color-ultra-light;
+  margin: 0 auto;
+  position: relative;
+  padding: $spacing-unit / 2 0;
+  max-width: $on-palm;
+}
+
+.contact h2 {
+  margin: 0px $spacing-unit / 2;
+  color: $grey-color-dark;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.contact p {
+  margin: 0px $spacing-unit / 2;
+  color: $grey-color;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.contact fieldset{
+  border: medium none !important;
+  margin: 0 0 $spacing-unit / 2;
+  //min-width: 100%;
+  padding: 0 2%;
+  width: 96%;
+}
+
+.contact input {
+  width: 100%;
+  border: 1px solid $grey-color-light;
+  background: $background-color;
+  //margin:0 0 5px;
+  padding:10px;;
+  display: block;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+.contact textarea {
+  border: 1px solid $grey-color-light;
+  background: $background-color;
+  height: $spacing-unit * 4;
+  width: 100%;
+  padding: 5px;
+  resize: none;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+.contact button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: $grey-color-dark;
+  color: $background-color;
+  padding: $spacing-unit / 2;
+  font-size: 16px;
+}
+
+.contact button:hover {
+  background: $brand-color;
+  -webkit-transition: background .3s;
+  -moz-transition: background .3s;
+  -ms-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}

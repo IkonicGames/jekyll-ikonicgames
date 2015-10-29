@@ -1,0 +1,5 @@
+#app/_site
+app/.sass-cache
+app/.jekyll-metadata
+
+.idea

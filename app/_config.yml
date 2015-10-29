@@ -1,0 +1,15 @@
+# Site settings
+title: Ikonic Games
+email: egunn at ikonicgames.com
+twitter_username: IkonicGames
+github_username:  IkonicGames
+facebook_username: IkonicGames
+description: >
+  Ikonic Games (@IkonicGames) is a one-man game development 'studio', currently based somewhere there is internet in 
+  South America.  All design and programming is completed by me, <b>Erin Gunn</b>.  Sometimes I try art too.
+one_liner: I develop HTML5 and crossplatform games because I want to play them.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ikonicgames.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

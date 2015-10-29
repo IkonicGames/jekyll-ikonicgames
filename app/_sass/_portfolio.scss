@@ -1,0 +1,27 @@
+.portfolio-item {
+	background-color: $grey-color-ultra-light;
+	margin: $spacing-unit / 2 0px;
+	min-width: 240px;
+}
+
+.portfolio-img {
+	width: 240px;
+	padding: $spacing-unit / 2;
+}
+
+.portfolio-info {
+	vertical-align: top;
+	padding: $spacing-unit / 2;
+}
+
+.portfolio-title {
+	font-weight: bold;
+	border-bottom: 1px solid $grey-color-dark;
+	margin-bottom: 5px;
+}
+
+.portfolio-genre {
+	font-size: 12px;
+	background-color: $grey-color-light;
+	padding: 2px;
+}
