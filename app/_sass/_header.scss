@@ -71,12 +71,23 @@
 
   .nav-button-active {
     text-decoration: none;
-    //background-color: $grey-color;
-    //color: $brand-color;
     box-shadow: 0 -5px 0 0 $brand-color
   }
 }
 
 @include media-query($on-palm) {
+  .site-nav {
+    .nav-button {
+      font-size: 18px;
+      display: block;
+      text-align: center;
+      border: 2px solid $grey-color;
+    }
 
+    .nav-button-active {
+      background-color: $brand-color;
+      text-decoration: none;
+      box-shadow: none;
+    }
+  }
 }
