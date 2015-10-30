@@ -184,18 +184,16 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 15px solid #424242;
-  border-bottom: 5px solid #c2c2c2;
   min-height: 56px;
   display: block;
   overflow: hidden;
-  padding-right: 15px;
-  padding-left: 15px;
   position: relative; }
 
 .site-branding {
   float: left;
-  width: 100%; }
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px; }
 
 .site-title {
   font-size: 36px;
@@ -211,8 +209,10 @@ pre {
   color: #828282; }
 
 .site-nav {
+  background-color: #424242;
   float: right;
-  line-height: 2; }
+  line-height: 2;
+  width: 100%; }
   .site-nav .nav-button {
     background-color: #424242;
     cursor: pointer;
