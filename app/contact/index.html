@@ -5,40 +5,30 @@ class: contact
 ---
 
 <div class="home">
-    <!--<div style="text-align: center;">-->
-        <!--<a href="https://twitter.com/IkonicGames" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @IkonicGames</a>-->
-        <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
-    <!--</div>-->
-
     <p>If you would like to contact me with inquiries regarding game licensing, partnership opportunities, or simply have a comment, please complete the form below.</p>
-    <!--<p>Alternatively, you can email me directly at: egunn at ikonicgames.com</p>-->
 
-    <form class="contact" accept-charset="UTF-8" action="https://formkeep.com/f/57d79dec8ac4" method="POST">
-        <input type="hidden" name="utf8" value="✓">
-
+    <form class="contact" action="https://getsimpleform.com/messages?form_api_token=0a6e11a319dd26e85e8dad295dfdc2ff" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input  type='hidden' name='redirect_to' value='http://ikonicgames.com/contact/thankyou.html'/>
         <h2>Contact Me</h2>
         <fieldset>
             <label>Name</label>
-            <input type="text" name="name" placeholder="Your Name">
+            <input type="text" name="name" placeholder="Your Name"/>
         </fieldset>
         <fieldset>
             <label>Email</label>
-            <input type="email" name="email" placeholder="your@emailaddress.com">
+            <input type="email" name="email" placeholder="your@emailaddress.com"/>
         </fieldset>
         <fieldset>
             <label>Website</label>
-            <input type="url" name="url" placeholder="http://yourwebsite.com">
+            <input type="url" name="url" placeholder="http://yourwebsite.com"/>
         </fieldset>
         <fieldset>
             <label>Message</label>
             <textarea name="message" placeholder="Type your message here..."></textarea>
         </fieldset>
-        <!--<fieldset>-->
-            <!--<label>Type the text without the 'quote' marks to verify you not made of metal.</label>-->
-            <!--<input id="contact-form-validator" type="text" placeholder="Type 'man made'">-->
-        <!--</fieldset>-->
         <fieldset>
-            <button type="submit">Submit</button>
+            <button type="submit" value="Test form">Submit</button>
         </fieldset>
     </form>
 

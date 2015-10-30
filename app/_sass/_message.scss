@@ -16,19 +16,19 @@
   width: 100% /*whatever width you want*/;
 }
 
-.error {
+.message {
   text-align: center;
   vertical-align: middle;
 }
 
-.error-code {
+.message h1 {
   font-size: 128px;
   font-weight: bold;
   margin-bottom: 0;
   padding: 0;
 }
 
-.error-desc {
+.message h2 {
   font-size: 48px;
   color: $grey-color;
 }
