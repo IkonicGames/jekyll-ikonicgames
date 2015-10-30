@@ -6,7 +6,7 @@
 - [ ] Proof Read
 - [x] Fix navigation menu at low resolution
 - [x] HTML5 Games page should transition title/description to under the screen sooner and size the container to the image.
-- [ ] 404.html
+- [x] 404.html
 - [x] Fix url's (maybe use symlinks instead of fancy htaccess?)
 
 #Backlog#
