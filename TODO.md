@@ -1,9 +1,9 @@
 #Version 1.0#
 
 - [ ] Landing Page
-- [ ] Verify contact form
+- [x] Verify contact form
 - [x] Add license
-- [ ] Proof Read
+- [x] Proof Read
 - [x] Fix navigation menu at low resolution
 - [x] HTML5 Games page should transition title/description to under the screen sooner and size the container to the image.
 - [x] 404.html
