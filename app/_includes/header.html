@@ -2,16 +2,24 @@
   <div>
     <div>
       <a href="{{ site.baseurl }}/">
-        <span>{{ site.title }}</span>
+        <span>Ikonic</span>
+        <span>Games</span>
       </a>
-      <p>{{ site.one_liner }}</p>
     </div>
 
+
+    <!--<nav>-->
+      <!--<a {% if page.class == 'home' %} nav-button-active {% endif %}" href="/">Home</a>-->
+      <!--<a {% if page.class == 'about' %} nav-button-active {% endif %}" href="/about">About</a>-->
+      <!--<a {% if page.class == 'html5games' %} nav-button-active {% endif %}" href="/html5-games">HTML5 Games</a>-->
+      <!--<a {% if page.class == 'contact' %} nav-button-active {% endif %}" href="/contact">Contact</a>-->
+    <!--</nav>-->
+
     <nav>
-      <a {% if page.class == 'home' %} nav-button-active {% endif %}" href="/">Home</a>
-      <a {% if page.class == 'about' %} nav-button-active {% endif %}" href="/about">About</a>
-      <a {% if page.class == 'html5games' %} nav-button-active {% endif %}" href="/html5-games">HTML5 Games</a>
-      <a {% if page.class == 'contact' %} nav-button-active {% endif %}" href="/contact">Contact</a>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/html5-games">HTML5 Games</a>
+      <a href="/contact">Contact</a>
     </nav>
 
   </div>
