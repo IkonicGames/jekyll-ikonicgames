@@ -7,93 +7,6 @@
   .col {
     display: table-cell; } }
 /**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0; }
-
-/**
- * Basic styling
- */
-body {
-  font-family: Roboto, "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
-  color: #111;
-  background-color: #ffffff;
-  -webkit-text-size-adjust: 100%; }
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-.highlight {
-  margin-bottom: 6px; }
-
-/**
- * Images
- */
-img {
-  max-width: 100%;
-  vertical-align: middle; }
-
-/**
- * Figures
- */
-figure > img {
-  display: block; }
-
-figcaption {
-  font-size: 14px; }
-
-/**
- * Lists
- */
-ul, ol {
-  margin-left: 12px; }
-
-li > ul,
-li > ol {
-  margin-bottom: 0; }
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
-
-/**
- * Links
- */
-a {
-  color: #FF0057;
-  text-decoration: none; }
-  a:visited {
-    color: #FF0057; }
-  a:hover {
-    color: #111;
-    text-decoration: underline; }
-
-/**
- * Blockquotes
- */
-blockquote {
-  color: #828282;
-  border-left: 4px solid #c2c2c2;
-  padding-left: 6px;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
-
-/**
  * Code formatting
  */
 pre,
@@ -115,39 +28,8 @@ pre {
     padding-left: 0; }
 
 /**
- * Wrapper
- */
-.wrapper {
-  max-width: -webkit-calc(1024px - (12px * 2));
-  max-width: calc(1024px - (12px * 2));
-  margin-right: auto;
-  margin-left: auto; }
-  @media screen and (max-width: 800px) {
-    .wrapper {
-      max-width: -webkit-calc(1024px - (12px));
-      max-width: calc(1024px - (12px));
-      padding-right: 6px;
-      padding-left: 6px; } }
-
-/**
  * Clearfix
  */
-.wrapper:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-/**
- * Icons
- */
-.icon > svg {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  vertical-align: middle; }
-  .icon > svg path {
-    fill: #828282; }
-
 /**
  * Syntax highlighting styles
  */
