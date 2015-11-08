@@ -1,17 +1,17 @@
-<header class="site-header">
+<header>
   <div>
-    <div class="site-branding">
-      <a class="site-title" href="{{ site.baseurl }}/">
+    <div>
+      <a href="{{ site.baseurl }}/">
         <span>{{ site.title }}</span>
       </a>
-      <p class="site-one-liner">{{ site.one_liner }}</p>
+      <p>{{ site.one_liner }}</p>
     </div>
 
-    <nav class="site-nav">
-      <a class="nav-button {% if page.class == 'home' %} nav-button-active {% endif %}" href="/">Home</a>
-      <a class="nav-button {% if page.class == 'about' %} nav-button-active {% endif %}" href="/about">About</a>
-      <a class="nav-button {% if page.class == 'html5games' %} nav-button-active {% endif %}" href="/html5-games">HTML5 Games</a>
-      <a class="nav-button {% if page.class == 'contact' %} nav-button-active {% endif %}" href="/contact">Contact</a>
+    <nav>
+      <a {% if page.class == 'home' %} nav-button-active {% endif %}" href="/">Home</a>
+      <a {% if page.class == 'about' %} nav-button-active {% endif %}" href="/about">About</a>
+      <a {% if page.class == 'html5games' %} nav-button-active {% endif %}" href="/html5-games">HTML5 Games</a>
+      <a {% if page.class == 'contact' %} nav-button-active {% endif %}" href="/contact">Contact</a>
     </nav>
 
   </div>

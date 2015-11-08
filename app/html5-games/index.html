@@ -6,15 +6,15 @@ class: html5games
 
 <article>
 {% for game in site.data.html5_games_public %}
-	<section class="row portfolio-item">
-		<div class="col portfolio-img">
+	<section>
+		<div>
 			<a href="{{ game.link }}">
 				<img src="{{ game.img }}" alt="{{ game.title }}">
 			</a>
 		</div>
-		<div class="col portfolio-info">
-			<h3 class="portfolio-title"><a href="{{ game.link }}">{{ game.title }}</a></h3>
-			<span class="portfolio-genre">{{ game.genre }}</span>
+		<div>
+			<h3><a href="{{ game.link }}">{{ game.title }}</a></h3>
+			<span>{{ game.genre }}</span>
 			<p>{{ game.description }}</p>
 		</div>
 	</section>
