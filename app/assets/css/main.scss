@@ -11,7 +11,13 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     12px;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$spacing-unit:     32px;
+
+$ease-time: 0.3s;
 
 $text-color:       #111;
 $background-color: #ffffff;

@@ -1,0 +1,52 @@
+.header {
+  height: 72px;
+  background-color: black;
+}
+
+.branding {
+  margin-left: $spacing-unit;
+  font-size: 48px;
+  font-weight: $font-weight-bold;
+
+  a {
+    text-decoration: none;
+  }
+
+  #ikonic {
+    color: $brand-color;
+  }
+
+  #games {
+    color: white;
+  }
+}
+
+nav {
+  float: right;
+  height: 72px;
+  margin-right: $spacing-unit;
+  font-size: 24px;
+
+  a {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-weight: $font-weight-medium;
+    padding: 18px $spacing-unit / 4;
+    text-decoration: none;
+
+    -webkit-transition: all $ease-time ease;
+    -moz-transition: all $ease-time ease;
+    -o-transition: all $ease-time ease;
+    transition: all $ease-time ease;
+  }
+  
+  a:hover {
+    background: $brand-color;
+
+    -webkit-transition: all $ease-time ease;
+    -moz-transition: all $ease-time ease;
+    -o-transition: all $ease-time ease;
+    transition: all $ease-time ease;
+  }
+}
