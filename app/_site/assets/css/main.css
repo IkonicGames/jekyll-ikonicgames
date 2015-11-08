@@ -7,6 +7,14 @@
   .col {
     display: table-cell; } }
 /**
+ * Base info
+ */
+body {
+  font-family: Roboto, "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+/**
  * Code formatting
  */
 pre,

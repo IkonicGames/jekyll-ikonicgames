@@ -1,4 +1,13 @@
 /**
+ * Base info
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+/**
  * Code formatting
  */
 pre,
