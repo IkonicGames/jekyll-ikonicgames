@@ -1,0 +1,38 @@
+.jumbotron {
+  height: 256px;
+  border-bottom: 8px solid $brand-color;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0043+0,4a90e2+100 */
+  background: $brand-color; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  $brand-color 0%, $brand-color-comp 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,$brand-color), color-stop(100%,$brand-color-comp)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  $brand-color 0%,$brand-color-comp 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  $brand-color 0%,$brand-color-comp 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  $brand-color 0%,$brand-color-comp 100%); /* IE10+ */
+  background: linear-gradient(135deg,  $brand-color 0%,$brand-color-comp 100%); /* W3C */
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0043', endColorstr='#4a90e2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jumbotron .info {
+  @include vertical-align();
+}
+
+.jumbotron h1 {
+  font-size: 30px;
+  font-weight: $font-weight-medium;
+  margin-bottom: $spacing-unit / 2;
+  color: white;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron .icon-container {
+  @include vertical-align();
+}
+
+.jumbotron .icon {
+  max-height: 100%;
+  max-width: 100%;
+}

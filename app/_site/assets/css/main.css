@@ -1,3 +1,12 @@
+/*
+ * Fonts
+ */
+/*
+ * Colors
+ */
+/*
+ * Dimensions
+ */
 @media (min-width: 30em) {
   .row {
     width: 100%;
@@ -57,6 +66,22 @@ body {
   font-size: 16px;
   line-height: 1.5; }
 
+.inherit-height {
+  height: 100%; }
+
+.container {
+  margin: auto;
+  width: 960px; }
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 960px; } }
+@media screen and (max-width: 800px) {
+  .container {
+    width: 700px; } }
+@media screen and (max-width: 350px) {
+  .container {
+    width: 300px; } }
 /**
  * Code formatting
  */
@@ -92,7 +117,7 @@ pre {
   .branding a {
     text-decoration: none; }
   .branding #ikonic {
-    color: #FF0057; }
+    color: #FF0043; }
   .branding #games {
     color: white; }
 
@@ -113,11 +138,57 @@ nav {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
   nav a:hover {
-    background: #FF0057;
+    background: #FF0043;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
+
+.jumbotron {
+  height: 256px;
+  border-bottom: 8px solid #FF0043;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0043+0,4a90e2+100 */
+  background: #FF0043;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #FF0043 0%, #4A90E2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #FF0043), color-stop(100%, #4A90E2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #FF0043 0%, #4A90E2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #FF0043 0%, #4A90E2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #FF0043 0%, #4A90E2 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #FF0043 0%, #4A90E2 100%);
+  /* W3C */ }
+
+.jumbotron .info {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.jumbotron h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: white; }
+
+.jumbotron p {
+  color: white; }
+
+.jumbotron .icon-container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.jumbotron .icon {
+  max-height: 100%;
+  max-width: 100%; }
 
 /**
  * Syntax highlighting styles
