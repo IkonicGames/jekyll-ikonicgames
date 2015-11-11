@@ -49,6 +49,7 @@ table {
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
+    font-weight: $font-weight-normal;
     line-height: $base-line-height;
 }
 
@@ -77,6 +78,35 @@ body {
   .container {
     width: 300px;
   }
+}
+
+/**
+ * Base Styles
+ */
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: $base-font-size * 2;
+}
+
+h2 {
+  font-size: $base-font-size * 1.66;
+}
+
+h3 {
+  font-size: $base-font-size * 1.33;
+}
+
+h4 {
+  font-size: $base-font-size * 1;
+}
+
+h5 {
+  font-size: $base-font-size * 0.66;
 }
 
 /**

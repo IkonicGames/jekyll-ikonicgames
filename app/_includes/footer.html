@@ -1,60 +1,66 @@
 <footer>
-  <div>
+  <div class="footer">
+    <div class="grid grid-pad">
 
-    <div>
-      <b>Site</b>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/html5-games">HTML5 Games</a></li>
-        <li><a href="/press">Press</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </div>
+        <div class="col-2-12">
+          <h4>Site</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/html5-games">HTML5 Games</a></li>
+            <li><a href="/press">Press</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
 
-    <div>
-      <b>Contact</b>
-      <ul
-        {% if site.github_username %}
-        <li>
-          <a href="https://github.com/{{ site.github_username }}">
-            <span>Github</span>
-          </a>
-        </li>
-        {% endif %}
+        <div class="col-2-12">
+          <h4>Contact</h4>
+          <ul
+            {% if site.github_username %}
+            <li>
+              <a href="https://github.com/{{ site.github_username }}">
+                <i class="fa fa-github-square"></i>
+                <span>Github</span>
+              </a>
+            </li>
+            {% endif %}
 
-        {% if site.twitter_username %}
-        <li>
-          <a href="https://twitter.com/{{ site.twitter_username }}">
-            <span>Twitter</span>
-          </a>
-        </li>
-        {% endif %}
+            {% if site.twitter_username %}
+            <li>
+              <a href="https://twitter.com/{{ site.twitter_username }}">
+                <i class="fa fa-twitter-square"></i>
+                <span>Twitter</span>
+              </a>
+            </li>
+            {% endif %}
 
-        {% if site.facebook_username %}
-        <li>
-          <a href="https://facebook.com/{{ site.facebook_username}}">
-            <span>Facebook</span>
-          </a>
-        </li>
-        {% endif %}
+            {% if site.facebook_username %}
+            <li>
+              <a href="https://facebook.com/{{ site.facebook_username}}">
+                <i class="fa fa-facebook-square"></i>
+                <span>Facebook</span>
+              </a>
+            </li>
+            {% endif %}
 
-        <li>
-          <!-- <a href="mailto:{{ site.email }}">{{ site.email }}</a> -->
-          <a href="mailto:{{ site.email }}">
-            <span>Email</span>
-          </a>
-        </li>
-      </ul>
-    </div>
+            <li>
+              <!-- <a href="mailto:{{ site.email }}">{{ site.email }}</a> -->
+              <a href="mailto:{{ site.email }}">
+                <i class="fa fa-envelope-square"></i>
+                <span>Email</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-    <div>
-      <b>Blurb</b>
-      <p>{{ site.description }}</p>
+        <div class="col-8-12">
+          <h4>Blurb</h4>
+          <p>{{ site.description }}</p>
+        </div>
     </div>
   </div>
 
-  <div>
+  <div class="copywright">
       <p>Copyright &copy; 2015 Erin Gunn</p>
   </div>
 

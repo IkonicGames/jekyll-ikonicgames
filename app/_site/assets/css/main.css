@@ -64,6 +64,7 @@ table {
 body {
   font-family: Roboto, "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
+  font-weight: 300;
   line-height: 1.5; }
 
 .inherit-height {
@@ -82,6 +83,28 @@ body {
 @media screen and (max-width: 350px) {
   .container {
     width: 300px; } }
+/**
+ * Base Styles
+ */
+a {
+  color: #FF0043;
+  text-decoration: none; }
+
+h1 {
+  font-size: 32px; }
+
+h2 {
+  font-size: 26.56px; }
+
+h3 {
+  font-size: 21.28px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 10.56px; }
+
 /**
  * Code formatting
  */
@@ -143,6 +166,22 @@ nav {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
+
+.footer {
+  background: #424242;
+  color: #828282; }
+  .footer h4 {
+    color: white;
+    font-weight: 500; }
+  .footer ul {
+    padding: 0;
+    list-style-type: none; }
+
+.copywright {
+  background: #1c1c1c;
+  color: #828282;
+  font-size: 12px;
+  text-align: center; }
 
 .jumbotron {
   height: 256px;

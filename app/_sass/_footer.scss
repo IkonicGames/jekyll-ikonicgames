@@ -1,0 +1,21 @@
+.footer {
+  background: $grey-color-dark;
+  color: $grey-color;
+  
+  h4 {
+    color: white;
+    font-weight: $font-weight-medium;
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+.copywright {
+  background: $grey-color-ultra-dark;
+  color: $grey-color;
+  font-size: 12px;
+  text-align: center;
+}
