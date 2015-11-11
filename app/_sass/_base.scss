@@ -58,26 +58,7 @@ body {
 }
 
 .container {
-  margin: auto;
-  width: 960px;
-}
-
-@include media-query($screen-lg) {
-  .container {
-    width: 960px;
-  }
-}
-
-@include media-query($screen-md) {
-  .container {
-    width: 700px;
-  }
-}
-
-@include media-query($screen-sm) {
-  .container {
-    width: 300px;
-  }
+  padding: $spacing-unit;
 }
 
 /**
