@@ -1,1 +1,59 @@
+#genres-container {
+  border-bottom: 1px solid $grey-color-dark;
+  margin-top: $spacing-unit * 2;
+}
 
+#genres {
+  margin:1%;
+  padding:0;
+  list-style:none;
+  width: 100%;
+}
+
+#genres div {
+  border-bottom: 1px solid $grey-color-dark;
+}
+
+#genres li {
+  float:left;
+}
+
+#genres li span {
+  background: $grey-color-ultra-light;
+  display: block;
+  padding:5px 20px;
+  margin: 0 2px;
+  text-decoration:none;
+  color:$grey-color-dark;
+  cursor: pointer;
+}
+
+#genres li .active {
+  background: $brand-primary;
+  color:#fff;
+}
+
+#portfolio-list .portfolio {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width:23%;
+  margin:3% 1%;
+  float: left;
+}
+
+.portfolio {
+  overflow:hidden;
+  position: relative !important;
+  //cursor:pointer;
+
+  a h4 {
+    color: $brand-primary;
+  }
+}
+
+#genre-label {
+  font-size: $base-font-size * 0.8;
+  padding: 2px 4px;
+  background: $grey-color-ultra-light;
+}

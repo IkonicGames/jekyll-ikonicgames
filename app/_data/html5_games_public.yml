@@ -1,17 +1,55 @@
-- title: Week 01 - Personal Space Invaders
+- title: Personal Space Invaders
   img: /assets/images/ss-week01.png
   link: /games/public/Week01.swf
 #  link: /
   genre: Arcade
   description: How long can you survive the onslaught of aliens?
 
-- title: Week 02 - Trench Invaders
+- title: Trench Invaders
   img: /assets/images/ss-week02.png
   link: /games/public/Week02.swf
   genre: Action
   description: Blast your way through the trenches.
 
-- title: Week 03 - Block Jumper
+- title: Block Jumper
+  img: /assets/images/ss-week03.png
+  link: /games/public/Week03.swf
+  genre: MAYEMEMEMME!!
+  description: Leaping over big, white, square blocks is nothing for you.  But don't mess up your timing...
+
+- title: Personal Space Invaders
+  img: /assets/images/ss-week01.png
+  link: /games/public/Week01.swf
+#  link: /
+  genre: Arcade
+  description: How long can you survive the onslaught of aliens?
+
+- title: Trench Invaders
+  img: /assets/images/ss-week02.png
+  link: /games/public/Week02.swf
+  genre: Action
+  description: Blast your way through the trenches.
+
+- title: Block Jumper
+  img: /assets/images/ss-week03.png
+  link: /games/public/Week03.swf
+  genre: MAYEMEMEMME!!
+  description: Leaping over big, white, square blocks is nothing for you.  But don't mess up your timing...
+
+- title: Personal Space Invaders
+  img: /assets/images/ss-week01.png
+  link: /games/public/Week01.swf
+#  link: /
+  genre: Arcade
+  description: How long can you survive the onslaught of aliens?
+
+- title: Trench Invaders
+  img: /assets/images/ss-week02.png
+  link: /games/public/Week02.swf
+  genre: Action
+  description: Blast your way through the trenches.
+
+- title: Block Jumper
   img: /assets/images/ss-week03.png
   link: /games/public/Week03.swf
   genre: MAYEMEMEMME!!

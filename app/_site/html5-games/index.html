@@ -14,8 +14,10 @@
   <link rel="stylesheet" href="/assets/css/simplegrid.css">
   <link rel="canonical" href="http://ikonicgames.com/html5-games/">
   <link rel="alternate" type="application/rss+xml" title="Ikonic Games" href="http://ikonicgames.com/feed.xml" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
   <!-- Google Analytics -->
   <script>
@@ -76,48 +78,159 @@
 </div>
 
 <div>
-    <article>
+    <section class="grid grid-pad">
+	<div class="col-4-12 info-block centered-text">
+		<span class="fa-stack fa-3x">
+			<i class="fa fa-fw fa-circle fa-stack-2x"></i>
+			<i class="fa fa-fw fa-html5 fa-stack-1x fa-inverse"></i>
+		</span>
+		<h3>HTML5</h3>
+		<p>Our games are built using the latest javascript and HTML5 technologies ensuring maximum compatibility.</p>
+	</div>
+	<div class="col-4-12 info-block centered-text">
+		<span class="fa-stack fa-3x">
+			<i class="fa fa-fw fa-circle fa-stack-2x"></i>
+			<i class="fa fa-fw fa-mobile fa-stack-1x fa-inverse"></i>
+		</span>
+		<h3>Mobile Ready</h3>
+		<p>Designed with a focus on mobile platforms, our games are lightning fast on every target.</p>
+	</div>
+	<div class="col-4-12 info-block centered-text">
+		<span class="fa-stack fa-3x">
+			<i class="fa fa-fw fa-circle fa-stack-2x"></i>
+			<i class="fa fa-fw fa-refresh fa-stack-1x fa-inverse fa-spin"></i>
+		</span>
+		<h3>Responsive</h3>
+		<p>With top notch tecnhologies employed, you can be sure your games are ready for your players.</p>
+	</div>
+</section>
 
-	<section>
-		<div>
-			<a href="/games/public/Week01.swf">
-				<img src="/assets/images/ss-week01.png" alt="Week 01 - Personal Space Invaders">
-			</a>
+<div class="panel centered-text">
+	<div class="grid">
+		<div class="col-3-12"></div>
+		<div class="col-6-12">
+        	<p><em>All games are available for licensing with discounts available for package purchases.  Our quick turn around ensures that you are up and running with your new games in record time.</em></p>
 		</div>
-		<div>
-			<h3><a href="/games/public/Week01.swf">Week 01 - Personal Space Invaders</a></h3>
-			<span>Arcade</span>
-			<p>How long can you survive the onslaught of aliens?</p>
-		</div>
+		<div class="col-3-12"></div>
+	</div>
+	<p class="padding">
+		<a href="/contact" class="button">Contact Form</a>
+	</p>
+</div>
+
+<article>
+	<section id="genres-container" class="grid">
+        <ul id="genres" class="clearfix">
+            <li><span class="genre active" data-filter="all">All</span></li>
+            <li><span class="genre" data-filter="action">Action</span></li>
+            <li><span class="genre" data-filter="arcade">Arcade</span></li>
+            <li><span class="genre" data-filter="puzzle">Puzzle</span></li>
+            <li><span class="genre" data-filter="strategy">Strategy</span></li>
+            <li><span class="genre" data-filter="rpg">Role Playing Game</span></li>
+            <li><span class="genre" data-filter="sports">Sports</span></li>
+        </ul>
 	</section>
 
-	<section>
-		<div>
-			<a href="/games/public/Week02.swf">
-				<img src="/assets/images/ss-week02.png" alt="Week 02 - Trench Invaders">
-			</a>
-		</div>
-		<div>
-			<h3><a href="/games/public/Week02.swf">Week 02 - Trench Invaders</a></h3>
-			<span>Action</span>
-			<p>Blast your way through the trenches.</p>
-		</div>
+	<section id="portfolio-list" class="grid">
+		
+            <div class="portfolio" data-filter="Arcade">
+                <a href="/games/public/Week01.swf">
+                    <img src="/assets/images/ss-week01.png" alt="Personal Space Invaders">
+                	<h4>Personal Space Invaders</h4>
+				</a>
+                <span id="genre-label">Arcade</span>
+            </div>
+    	
+            <div class="portfolio" data-filter="Action">
+                <a href="/games/public/Week02.swf">
+                    <img src="/assets/images/ss-week02.png" alt="Trench Invaders">
+                	<h4>Trench Invaders</h4>
+				</a>
+                <span id="genre-label">Action</span>
+            </div>
+    	
+            <div class="portfolio" data-filter="MAYEMEMEMME!!">
+                <a href="/games/public/Week03.swf">
+                    <img src="/assets/images/ss-week03.png" alt="Block Jumper">
+                	<h4>Block Jumper</h4>
+				</a>
+                <span id="genre-label">MAYEMEMEMME!!</span>
+            </div>
+    	
+            <div class="portfolio" data-filter="Arcade">
+                <a href="/games/public/Week01.swf">
+                    <img src="/assets/images/ss-week01.png" alt="Personal Space Invaders">
+                	<h4>Personal Space Invaders</h4>
+				</a>
+                <span id="genre-label">Arcade</span>
+            </div>
+    	
+            <div class="portfolio" data-filter="Action">
+                <a href="/games/public/Week02.swf">
+                    <img src="/assets/images/ss-week02.png" alt="Trench Invaders">
+                	<h4>Trench Invaders</h4>
+				</a>
+                <span id="genre-label">Action</span>
+            </div>
+    	
+            <div class="portfolio" data-filter="MAYEMEMEMME!!">
+                <a href="/games/public/Week03.swf">
+                    <img src="/assets/images/ss-week03.png" alt="Block Jumper">
+                	<h4>Block Jumper</h4>
+				</a>
+                <span id="genre-label">MAYEMEMEMME!!</span>
+            </div>
+    	
+            <div class="portfolio" data-filter="Arcade">
+                <a href="/games/public/Week01.swf">
+                    <img src="/assets/images/ss-week01.png" alt="Personal Space Invaders">
+                	<h4>Personal Space Invaders</h4>
+				</a>
+                <span id="genre-label">Arcade</span>
+            </div>
+    	
+            <div class="portfolio" data-filter="Action">
+                <a href="/games/public/Week02.swf">
+                    <img src="/assets/images/ss-week02.png" alt="Trench Invaders">
+                	<h4>Trench Invaders</h4>
+				</a>
+                <span id="genre-label">Action</span>
+            </div>
+    	
+            <div class="portfolio" data-filter="MAYEMEMEMME!!">
+                <a href="/games/public/Week03.swf">
+                    <img src="/assets/images/ss-week03.png" alt="Block Jumper">
+                	<h4>Block Jumper</h4>
+				</a>
+                <span id="genre-label">MAYEMEMEMME!!</span>
+            </div>
+    	
 	</section>
-
-	<section>
-		<div>
-			<a href="/games/public/Week03.swf">
-				<img src="/assets/images/ss-week03.png" alt="Week 03 - Block Jumper">
-			</a>
-		</div>
-		<div>
-			<h3><a href="/games/public/Week03.swf">Week 03 - Block Jumper</a></h3>
-			<span>MAYEMEMEMME!!</span>
-			<p>Leaping over big, white, square blocks is nothing for you.  But don't mess up your timing...</p>
-		</div>
-	</section>
-
 </article>
+
+<script>
+	$(document).ready(function() {
+		$('ul#genres li span').click(function() {
+			$('ul#genres li .active').removeClass('active');
+			$(this).addClass('active');
+
+			// do filtering
+			var filter = $(this).data('filter');
+				$('section#portfolio-list').children('div .portfolio').each(function () {
+					if(filter == 'all') {
+						$(this).fadeIn('normal');
+					} else if($(this).data('filter').toLowerCase() == filter) {
+						$(this).fadeIn('slow');
+					} else {
+						$(this).fadeOut('normal');
+					}
+				});
+
+			return false;
+		});
+	});
+</script>
+
 </div>
 
 

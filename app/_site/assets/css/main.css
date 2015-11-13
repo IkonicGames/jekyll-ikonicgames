@@ -58,6 +58,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+em {
+  font-style: italic; }
+
 /**
  * Base info
  */
@@ -80,6 +83,10 @@ a {
   color: #FF0043;
   text-decoration: none; }
 
+h1, h2, h3, h4, h5 {
+  color: #1c1c1c;
+  font-weight: 700; }
+
 h1 {
   font-size: 32px; }
 
@@ -99,10 +106,10 @@ h5 {
   background-color: #e8e8e8;
   border: 1px solid #c2c2c2;
   padding: 16px;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
-  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5); }
+  border-radius: 3px; }
 
 .padding {
   margin: 16px; }
@@ -123,6 +130,13 @@ h5 {
 
 .centered-text {
   text-align: center; }
+
+.info-block {
+  margin-bottom: 16px; }
+  .info-block h3 {
+    font-weight: 500; }
+  .info-block .fa-circle {
+    color: #FF0043; }
 
 /**
  * Code formatting
@@ -148,6 +162,9 @@ pre {
 /**
  * Clearfix
  */
+.post-listing a h4 {
+  color: #FF0043; }
+
 .header {
   height: 72px;
   background-color: black; }
@@ -203,6 +220,54 @@ nav {
   font-size: 12px;
   text-align: center; }
 
+#genres-container {
+  border-bottom: 1px solid #424242;
+  margin-top: 64px; }
+
+#genres {
+  margin: 1%;
+  padding: 0;
+  list-style: none;
+  width: 100%; }
+
+#genres div {
+  border-bottom: 1px solid #424242; }
+
+#genres li {
+  float: left; }
+
+#genres li span {
+  background: #e8e8e8;
+  display: block;
+  padding: 5px 20px;
+  margin: 0 2px;
+  text-decoration: none;
+  color: #424242;
+  cursor: pointer; }
+
+#genres li .active {
+  background: #FF0043;
+  color: #fff; }
+
+#portfolio-list .portfolio {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width: 23%;
+  margin: 3% 1%;
+  float: left; }
+
+.portfolio {
+  overflow: hidden;
+  position: relative !important; }
+  .portfolio a h4 {
+    color: #FF0043; }
+
+#genre-label {
+  font-size: 12.8px;
+  padding: 2px 4px;
+  background: #e8e8e8; }
+
 .jumbotron {
   height: 256px; }
 
@@ -210,6 +275,8 @@ nav {
   font-size: 30px;
   font-weight: 500;
   color: white; }
+  .jumbotron-page-title h1 {
+    color: white; }
 
 .jumbotron-gradient {
   border-bottom: 8px solid #FF0043;

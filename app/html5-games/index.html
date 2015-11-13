@@ -4,19 +4,91 @@ title: HTML5 Games
 class: html5games
 ---
 
+<section class="grid grid-pad">
+	<div class="col-4-12 info-block centered-text">
+		<span class="fa-stack fa-3x">
+			<i class="fa fa-fw fa-circle fa-stack-2x"></i>
+			<i class="fa fa-fw fa-html5 fa-stack-1x fa-inverse"></i>
+		</span>
+		<h3>HTML5</h3>
+		<p>Our games are built using the latest javascript and HTML5 technologies ensuring maximum compatibility.</p>
+	</div>
+	<div class="col-4-12 info-block centered-text">
+		<span class="fa-stack fa-3x">
+			<i class="fa fa-fw fa-circle fa-stack-2x"></i>
+			<i class="fa fa-fw fa-mobile fa-stack-1x fa-inverse"></i>
+		</span>
+		<h3>Mobile Ready</h3>
+		<p>Designed with a focus on mobile platforms, our games are lightning fast on every target.</p>
+	</div>
+	<div class="col-4-12 info-block centered-text">
+		<span class="fa-stack fa-3x">
+			<i class="fa fa-fw fa-circle fa-stack-2x"></i>
+			<i class="fa fa-fw fa-refresh fa-stack-1x fa-inverse fa-spin"></i>
+		</span>
+		<h3>Responsive</h3>
+		<p>With top notch tecnhologies employed, you can be sure your games are ready for your players.</p>
+	</div>
+</section>
+
+<div class="panel centered-text">
+	<div class="grid">
+		<div class="col-3-12"></div>
+		<div class="col-6-12">
+        	<p><em>All games are available for licensing with discounts available for package purchases.  Our quick turn around ensures that you are up and running with your new games in record time.</em></p>
+		</div>
+		<div class="col-3-12"></div>
+	</div>
+	<p class="padding">
+		<a href="/contact" class="button">Contact Form</a>
+	</p>
+</div>
+
 <article>
-{% for game in site.data.html5_games_public %}
-	<section>
-		<div>
-			<a href="{{ game.link }}">
-				<img src="{{ game.img }}" alt="{{ game.title }}">
-			</a>
-		</div>
-		<div>
-			<h3><a href="{{ game.link }}">{{ game.title }}</a></h3>
-			<span>{{ game.genre }}</span>
-			<p>{{ game.description }}</p>
-		</div>
+	<section id="genres-container" class="grid">
+        <ul id="genres" class="clearfix">
+            <li><span class="genre active" data-filter="all">All</span></li>
+            <li><span class="genre" data-filter="action">Action</span></li>
+            <li><span class="genre" data-filter="arcade">Arcade</span></li>
+            <li><span class="genre" data-filter="puzzle">Puzzle</span></li>
+            <li><span class="genre" data-filter="strategy">Strategy</span></li>
+            <li><span class="genre" data-filter="rpg">Role Playing Game</span></li>
+            <li><span class="genre" data-filter="sports">Sports</span></li>
+        </ul>
 	</section>
-{% endfor %}
+
+	<section id="portfolio-list" class="grid">
+		{% for game in site.data.html5_games_public %}
+            <div class="portfolio" data-filter="{{ game.genre }}">
+                <a href="{{ game.link }}">
+                    <img src="{{ game.img }}" alt="{{ game.title }}">
+                	<h4>{{ game.title }}</h4>
+				</a>
+                <span id="genre-label">{{ game.genre }}</span>
+            </div>
+    	{% endfor %}
+	</section>
 </article>
+
+<script>
+	$(document).ready(function() {
+		$('ul#genres li span').click(function() {
+			$('ul#genres li .active').removeClass('active');
+			$(this).addClass('active');
+
+			// do filtering
+			var filter = $(this).data('filter');
+				$('section#portfolio-list').children('div .portfolio').each(function () {
+					if(filter == 'all') {
+						$(this).fadeIn('normal');
+					} else if($(this).data('filter').toLowerCase() == filter) {
+						$(this).fadeIn('slow');
+					} else {
+						$(this).fadeOut('normal');
+					}
+				});
+
+			return false;
+		});
+	});
+</script>
