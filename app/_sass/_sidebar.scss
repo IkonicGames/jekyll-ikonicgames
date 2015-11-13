@@ -1,0 +1,66 @@
+.sidebar {
+  //margin-top: $spacing-unit / 2;
+}
+
+.floating-header {
+  margin-top: $spacing-unit / 2;
+  text-shadow: 2px 2px 3px $grey-color-light;
+  color: $grey-color-dark;
+  font-weight: $font-weight-medium;
+  font-size: 24px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-twitter {
+  color: #55acee;
+}
+
+.icon-facebook {
+  color: #3b5998;
+}
+
+.icon-github {
+  color: black;
+}
+
+.icon-rss {
+  color: #ff6600;
+}
+
+.sub-title {
+  font-size: 24px;
+  color: $grey-color-dark;
+  margin-bottom: $spacing-unit / 6;
+}
+
+.sub-input {
+  font-size: $base-font-size;
+  width: 100%;
+  padding: $spacing-unit / 4;
+  margin-bottom: $spacing-unit / 4;
+}
+
+.sub-button {
+  width: 100%;
+  border: none;
+}
+
+.tag-cloud {
+  margin-bottom: $spacing-unit;
+}
+
+.site-tag {
+  font-weight: $font-weight-medium;
+  color: $grey-color-dark;
+  background: $grey-color-ultra-light;
+  border: 1p solid $grey-color-dark;
+  padding: 4px 8px;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}

@@ -95,6 +95,35 @@ h4 {
 h5 {
   font-size: 10.56px; }
 
+.panel {
+  background-color: #e8e8e8;
+  border: 1px solid #c2c2c2;
+  padding: 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5); }
+
+.padding {
+  margin: 16px; }
+
+.button {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: white;
+  font-size: 16.8px;
+  background: #4A90E2;
+  padding: 8px 16px;
+  text-decoration: none; }
+
+.button:hover {
+  background: #609de6;
+  text-decoration: none; }
+
+.centered-text {
+  text-align: center; }
+
 /**
  * Code formatting
  */
@@ -175,7 +204,14 @@ nav {
   text-align: center; }
 
 .jumbotron {
-  height: 256px;
+  height: 256px; }
+
+.jumbotron-page-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: white; }
+
+.jumbotron-gradient {
   border-bottom: 8px solid #FF0043;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0043+0,4a90e2+100 */
   background: #FF0043;
@@ -219,6 +255,57 @@ nav {
 .jumbotron .icon {
   max-height: 100%;
   max-width: 100%; }
+
+.floating-header {
+  margin-top: 16px;
+  text-shadow: 2px 2px 3px #c2c2c2;
+  color: #424242;
+  font-weight: 500;
+  font-size: 24px; }
+
+.icon-container {
+  display: flex;
+  justify-content: space-between; }
+
+.icon-twitter {
+  color: #55acee; }
+
+.icon-facebook {
+  color: #3b5998; }
+
+.icon-github {
+  color: black; }
+
+.icon-rss {
+  color: #ff6600; }
+
+.sub-title {
+  font-size: 24px;
+  color: #424242;
+  margin-bottom: 5.33333px; }
+
+.sub-input {
+  font-size: 16px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px; }
+
+.sub-button {
+  width: 100%;
+  border: none; }
+
+.tag-cloud {
+  margin-bottom: 32px; }
+
+.site-tag {
+  font-weight: 500;
+  color: #424242;
+  background: #e8e8e8;
+  border: 1p solid #424242;
+  padding: 4px 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
 
 /**
  * Syntax highlighting styles

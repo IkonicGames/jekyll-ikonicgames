@@ -13,7 +13,7 @@
   }
 
   #ikonic {
-    color: $brand-color;
+    color: $brand-primary;
   }
 
   #games {
@@ -42,7 +42,7 @@ nav {
   }
   
   a:hover {
-    background: $brand-color;
+    background: $brand-primary;
 
     -webkit-transition: all $ease-time ease;
     -moz-transition: all $ease-time ease;

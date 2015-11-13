@@ -66,7 +66,7 @@ body {
  */
 
 a {
-  color: $brand-color;
+  color: $brand-primary;
   text-decoration: none;
 }
 
@@ -88,6 +88,40 @@ h4 {
 
 h5 {
   font-size: $base-font-size * 0.66;
+}
+
+.panel {
+  background-color: $grey-color-ultra-light;
+  border: 1px solid $grey-color-light;
+  padding: $spacing-unit / 2;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.50);
+}
+
+.padding {
+  margin: $spacing-unit / 2;
+}
+
+.button {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: white;
+  font-size: $base-font-size * 1.05;
+  background: $brand-secondary;
+  padding: $spacing-unit / 4 $spacing-unit / 2;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: lighten($brand-secondary, 5%);
+  text-decoration: none;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 /**

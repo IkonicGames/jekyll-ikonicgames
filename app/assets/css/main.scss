@@ -25,8 +25,8 @@ $ease-time: 0.3s;
  */
 $text-color:       #111;
 $background-color: #ffffff;
-$brand-color:      #FF0043;
-$brand-color-comp: #4A90E2;
+$brand-primary:      #FF0043;
+$brand-secondary: #4A90E2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 25%);
@@ -81,5 +81,6 @@ $spacing-unit:     32px;
         "jumbotron",
         "contact",
         "message",
+        "sidebar",
         "syntax-highlighting"
 ;

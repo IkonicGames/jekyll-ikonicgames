@@ -1,15 +1,24 @@
 .jumbotron {
   height: 256px;
-  border-bottom: 8px solid $brand-color;
+}
+
+.jumbotron-page-title {
+  font-size: 30px;
+  font-weight: $font-weight-medium;
+  color: white;
+}
+
+.jumbotron-gradient {
+  border-bottom: 8px solid $brand-primary;
 
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0043+0,4a90e2+100 */
-  background: $brand-color; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  $brand-color 0%, $brand-color-comp 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,$brand-color), color-stop(100%,$brand-color-comp)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  $brand-color 0%,$brand-color-comp 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg,  $brand-color 0%,$brand-color-comp 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg,  $brand-color 0%,$brand-color-comp 100%); /* IE10+ */
-  background: linear-gradient(135deg,  $brand-color 0%,$brand-color-comp 100%); /* W3C */
+  background: $brand-primary; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  $brand-primary 0%, $brand-secondary 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,$brand-primary), color-stop(100%,$brand-secondary)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  $brand-primary 0%,$brand-secondary 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  $brand-primary 0%,$brand-secondary 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  $brand-primary 0%,$brand-secondary 100%); /* IE10+ */
+  background: linear-gradient(135deg,  $brand-primary 0%,$brand-secondary 100%); /* W3C */
   //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0043', endColorstr='#4a90e2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
