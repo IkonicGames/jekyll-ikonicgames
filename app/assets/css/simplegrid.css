@@ -36,9 +36,9 @@ body {
 }
 
 .grid-pad {
-    padding-top: 20px;
-    padding-left: 20px; /* grid-space to left */
-    padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
+    padding-top: 6px;
+    padding-left: 6px; /* grid-space to left */
+    padding-right: 6px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
 }
 
 .push-right {
@@ -170,7 +170,7 @@ body {
     margin-left: 8.33%
 }
 
-@media handheld, only screen and (max-width: 767px) {
+@media handheld, only screen and (max-width: 750px) {
     .grid {
         width: 100%;
         min-width: 0;

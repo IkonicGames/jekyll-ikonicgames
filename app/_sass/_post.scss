@@ -1,5 +1,14 @@
-.post-listing {
-  a h4 {
+header.post {
+  margin-top: $spacing-unit / 2;
+  //margin-bottom: $spacing-unit / 2;
+}
+
+.post-listing-small {
+  a h2 {
     color: $brand-primary;
   }
+}
+
+.disqus-comments {
+  margin: $spacing-unit / 2;
 }

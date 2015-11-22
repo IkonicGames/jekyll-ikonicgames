@@ -41,11 +41,17 @@
   color: white;
 }
 
-.jumbotron .icon-container {
+.jumbotron-icon-container {
   @include vertical-align();
 }
 
-.jumbotron .icon {
+@include media-query(767px) {
+  .jumbotron-icon-container {
+    visibility: hidden;
+  }
+}
+
+.jumbotron-icon {
   max-height: 100%;
   max-width: 100%;
 }

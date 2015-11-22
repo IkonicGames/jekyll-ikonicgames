@@ -8,7 +8,7 @@ class: home
 
   <div class="panel centered-text">
 
-    <p class="padding"><em>If you have landed at our website to play or license our HTML5 Games, please click the button below.</em></p>
+    <p class="padding"><em>Click the button below if you have landed at this site to play or license HTML5 Games.</em></p>
 
     <p class="padding">
       <a href="/html5-games" class="button">HTML5 Games</a>
@@ -16,19 +16,28 @@ class: home
 
   </div>
 
-  <div class="grid"></div>
-  <h1>Recent Blog Posts</h1>
+  <div class="recent-posts grid grid-pad">
+    <!--<div id="recent-posts">-->
+      <header id="recent-posts-header">
+        <h1>Recent Blog Posts</h1>
+        <hr>
+      </header>
 
-  <ul>
-    {% for post in site.posts %}
-      <li class="post-listing">
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+      {% for post in site.posts limit:3 %}
+        <div class="col-4-12 post-listing-small">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <img class="border" src="{{ post.image }}">
+          </a>
 
-        <a href="{{ post.url | prepend: site.baseurl }}"><h4>{{ post.title }}</h4></a>
-      </li>
-    {% endfor %}
-  </ul>
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <h2>{{ post.title }}</h2>
+          </a>
 
-  <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+          <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+      {% endfor %}
+    <!--</div>-->
+    <!--<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+  </div>
 
 </div>

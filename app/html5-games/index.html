@@ -67,6 +67,7 @@ class: html5games
                 <span id="genre-label">{{ game.genre }}</span>
             </div>
     	{% endfor %}
+		<div class="portfolio__sizer"></div>
 	</section>
 </article>
 
@@ -80,11 +81,14 @@ class: html5games
 			var filter = $(this).data('filter');
 				$('section#portfolio-list').children('div .portfolio').each(function () {
 					if(filter == 'all') {
-						$(this).fadeIn('normal');
+						$(this).show();
+//						$(this).delay('normal').fadeIn('normal');
 					} else if($(this).data('filter').toLowerCase() == filter) {
-						$(this).fadeIn('slow');
+						$(this).show();
+//						$(this).delay('normal').fadeIn('normal');
 					} else {
-						$(this).fadeOut('normal');
+						$(this).hide();
+//						$(this).fadeOut('normal');
 					}
 				});
 

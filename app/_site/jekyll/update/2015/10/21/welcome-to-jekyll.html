@@ -9,14 +9,21 @@
   <title>Welcome to Jekyll!</title>
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
 
+  <!--Favicons...-->
+  <!--[if IE]><link rel="shortcut icon" href="/assets/favicon.ico"><![endif]-->
+  <link rel="apple-touch-icon-precomposed" href="/assets/favicon_180.png">
+  <link rel="icon" href="assets/favicon_196.png">
+
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/simplegrid.css">
+  <!--<link rel="stylesheet" href="/assets/vendor/hamburgler.css">-->
   <link rel="canonical" href="http://ikonicgames.com/jekyll/update/2015/10/21/welcome-to-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="Ikonic Games" href="http://ikonicgames.com/feed.xml" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/assets/vendor/hamburgler.js"></script>
 
   <!-- Google Analytics -->
   <script>
@@ -57,6 +64,21 @@
       <a class="nav-btn" href="/contact">Contact</a>
     </nav>
 
+    <div class="mobilenav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/html5-games">HTML5 Games</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </div>
+
+    <a href="javascript:void(0)" class="icon">
+      <div class="hamburger">
+        <div class="menui top-menu"></div>
+        <div class="menui middle-menu"></div>
+        <div class="menui bottom-menu"></div>
+      </div>
+    </a>
+
   </div>
 </header>
 
@@ -67,15 +89,16 @@
     </div>
 </div>
 
-<div class="grid">
+<div class="grid grid-pad">
     <div class="col-8-12">
         <div>
 
-  <header>
+  <header class="post">
+    <img class="border" src="/assets/images/blog/11-18-2015.jpeg">
     <p>Oct 21, 2015 • Erin Gunn</p>
   </header>
-
-  <article>
+  <hr>
+  <article class="post">
     <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
@@ -93,6 +116,32 @@
 
   </article>
 
+  <div class="disqus-comments">
+    
+    <div id="disqus_thread"></div>
+    <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+       */
+       var disqus_config = function () {
+       this.page.url = /jekyll/update/2015/10/21/welcome-to-jekyll.html;  // Replace PAGE_URL with your page's canonical URL variable
+       this.page.identifier = /jekyll/update/2015/10/21/welcome-to-jekyll; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+       };
+
+      (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//ikonicgames.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    
+  </div>
+
 </div>
 
     </div>
@@ -100,12 +149,12 @@
         <div class="sidebar">
     <p class="floating-header">Follow Ikonic Games</p>
 
-    <div class="panel">
+    <div class="panel sidebar-panel">
         <span class="icon-container">
-            <a href="https://twitter.com/ikonicgames/"><i class="fa fa-twitter-square fa-5x icon-twitter"></i></a>
-            <a href="https://facebook.com/ikonicgames/"><i class="fa fa-facebook-square fa-5x icon-facebook"></i></a>
-            <a href="https://github.com/IkonicGames"><i class="fa fa-github-square fa-5x icon-github"></i></a>
-            <a href="/feed.xml"><i class="fa fa-rss-square fa-5x icon-rss"></i></a>
+            <a href="https://twitter.com/ikonicgames/"><i class="fa fa-twitter-square fa-5x icon-twitter sidebar-icon"></i></a>
+            <a href="https://facebook.com/ikonicgames/"><i class="fa fa-facebook-square fa-5x icon-facebook sidebar-icon"></i></a>
+            <a href="https://github.com/IkonicGames"><i class="fa fa-github-square fa-5x icon-github sidebar-icon"></i></a>
+            <a href="/feed.xml"><i class="fa fa-rss-square fa-5x icon-rss sidebar-icon"></i></a>
         </span>
         <hr>
 
@@ -133,6 +182,7 @@
         <!--End mc_embed_signup-->
     </div>
 
+    <div class="sidebar-panel">
     <p class="floating-header">Tags</p>
     <hr>
 
@@ -146,6 +196,7 @@
             testing
         </a>
         
+    </div>
     </div>
 
 </div>

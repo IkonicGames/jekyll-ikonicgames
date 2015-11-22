@@ -50,3 +50,9 @@ nav {
     transition: all $ease-time ease;
   }
 }
+
+@include media-query($screen-sm) {
+  nav {
+    display: none;
+  }
+}

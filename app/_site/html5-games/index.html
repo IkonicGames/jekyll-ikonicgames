@@ -10,14 +10,21 @@
   <meta name="description" content="Ikonic Games (@IkonicGames) is a one-man game development 'studio', currently based somewhere in South America that I can find internet.  I like making games that everyone can play and nobody wants to put down.
 ">
 
+  <!--Favicons...-->
+  <!--[if IE]><link rel="shortcut icon" href="/assets/favicon.ico"><![endif]-->
+  <link rel="apple-touch-icon-precomposed" href="/assets/favicon_180.png">
+  <link rel="icon" href="assets/favicon_196.png">
+
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/simplegrid.css">
+  <!--<link rel="stylesheet" href="/assets/vendor/hamburgler.css">-->
   <link rel="canonical" href="http://ikonicgames.com/html5-games/">
   <link rel="alternate" type="application/rss+xml" title="Ikonic Games" href="http://ikonicgames.com/feed.xml" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/assets/vendor/hamburgler.js"></script>
 
   <!-- Google Analytics -->
   <script>
@@ -58,6 +65,21 @@
       <a class="nav-btn" href="/contact">Contact</a>
     </nav>
 
+    <div class="mobilenav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/html5-games">HTML5 Games</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </div>
+
+    <a href="javascript:void(0)" class="icon">
+      <div class="hamburger">
+        <div class="menui top-menu"></div>
+        <div class="menui middle-menu"></div>
+        <div class="menui bottom-menu"></div>
+      </div>
+    </a>
+
   </div>
 </header>
 
@@ -67,11 +89,11 @@
         <div class="col-1-12"></div>
         <div class="info col-6-12">
             <h1>HTML5 Games and Licensing</h1>
-            <p>We specialize in the production and licensing of HTML5 and Crossplatform games, targeting mobile and desktop browsers.</p>
+            <p>Ikonic Games specializes in the production and licensing of HTML5 and Crossplatform games, targeting mobile and desktop browsers.</p>
         </div>
         <div class="col-2-12"></div>
-        <div class="icon-container col-2-12">
-            <img class="icon" src="/assets/vendor/HTML5_logo_and_wordmark.svg" alt="HTML5">
+        <div class="jumbotron-icon-container col-2-12">
+            <img class="jumbotron-icon" src="/assets/vendor/HTML5_logo_and_wordmark.svg" alt="HTML5">
         </div>
         <div class="col-1-12"></div>
     </div>
@@ -205,6 +227,7 @@
                 <span id="genre-label">MAYEMEMEMME!!</span>
             </div>
     	
+		<div class="portfolio__sizer"></div>
 	</section>
 </article>
 
@@ -218,11 +241,14 @@
 			var filter = $(this).data('filter');
 				$('section#portfolio-list').children('div .portfolio').each(function () {
 					if(filter == 'all') {
-						$(this).fadeIn('normal');
+						$(this).show();
+//						$(this).delay('normal').fadeIn('normal');
 					} else if($(this).data('filter').toLowerCase() == filter) {
-						$(this).fadeIn('slow');
+						$(this).show();
+//						$(this).delay('normal').fadeIn('normal');
 					} else {
-						$(this).fadeOut('normal');
+						$(this).hide();
+//						$(this).fadeOut('normal');
 					}
 				});
 

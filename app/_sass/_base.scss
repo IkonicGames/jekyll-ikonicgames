@@ -98,6 +98,15 @@ h5 {
   font-size: $base-font-size * 0.66;
 }
 
+img.border {
+  max-width: 100%;
+  max-height: 100%;
+
+  -webkit-box-shadow: 0 0 3px 2px $grey-color-light;
+  -moz-box-shadow: 0 0 3px 2px $grey-color-light;
+  box-shadow: 0 0 3px 2px $grey-color-light;
+}
+
 .panel {
   background-color: $grey-color-ultra-light;
   border: 1px solid $grey-color-light;
@@ -119,6 +128,7 @@ h5 {
   border-radius: 2px;
   color: white;
   font-size: $base-font-size * 1.05;
+  font-weight: $font-weight-medium;
   background: $brand-secondary;
   padding: $spacing-unit / 4 $spacing-unit / 2;
   text-decoration: none;
@@ -143,6 +153,14 @@ h5 {
   .fa-circle {
     color: $brand-primary;
   }
+}
+
+#recent-posts-header {
+  margin-bottom: $spacing-unit / 2;
+}
+
+.recent-posts {
+  padding: $spacing-unit / 2 0px;
 }
 
 /**

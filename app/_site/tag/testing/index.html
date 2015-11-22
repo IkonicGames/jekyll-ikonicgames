@@ -10,14 +10,21 @@
   <meta name="description" content="Ikonic Games (@IkonicGames) is a one-man game development 'studio', currently based somewhere in South America that I can find internet.  I like making games that everyone can play and nobody wants to put down.
 ">
 
+  <!--Favicons...-->
+  <!--[if IE]><link rel="shortcut icon" href="/assets/favicon.ico"><![endif]-->
+  <link rel="apple-touch-icon-precomposed" href="/assets/favicon_180.png">
+  <link rel="icon" href="assets/favicon_196.png">
+
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/simplegrid.css">
+  <!--<link rel="stylesheet" href="/assets/vendor/hamburgler.css">-->
   <link rel="canonical" href="http://ikonicgames.com/tag/testing/">
   <link rel="alternate" type="application/rss+xml" title="Ikonic Games" href="http://ikonicgames.com/feed.xml" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/assets/vendor/hamburgler.js"></script>
 
   <!-- Google Analytics -->
   <script>
@@ -58,6 +65,21 @@
       <a class="nav-btn" href="/contact">Contact</a>
     </nav>
 
+    <div class="mobilenav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/html5-games">HTML5 Games</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </div>
+
+    <a href="javascript:void(0)" class="icon">
+      <div class="hamburger">
+        <div class="menui top-menu"></div>
+        <div class="menui middle-menu"></div>
+        <div class="menui bottom-menu"></div>
+      </div>
+    </a>
+
   </div>
 </header>
 
@@ -68,7 +90,7 @@
     </div>
 </div>
 
-<div class="grid">
+<div class="grid grid-pad">
     <div class="col-8-12">
         <h1>testing</h1>
 <hr>
@@ -86,12 +108,12 @@
         <div class="sidebar">
     <p class="floating-header">Follow Ikonic Games</p>
 
-    <div class="panel">
+    <div class="panel sidebar-panel">
         <span class="icon-container">
-            <a href="https://twitter.com/ikonicgames/"><i class="fa fa-twitter-square fa-5x icon-twitter"></i></a>
-            <a href="https://facebook.com/ikonicgames/"><i class="fa fa-facebook-square fa-5x icon-facebook"></i></a>
-            <a href="https://github.com/IkonicGames"><i class="fa fa-github-square fa-5x icon-github"></i></a>
-            <a href="/feed.xml"><i class="fa fa-rss-square fa-5x icon-rss"></i></a>
+            <a href="https://twitter.com/ikonicgames/"><i class="fa fa-twitter-square fa-5x icon-twitter sidebar-icon"></i></a>
+            <a href="https://facebook.com/ikonicgames/"><i class="fa fa-facebook-square fa-5x icon-facebook sidebar-icon"></i></a>
+            <a href="https://github.com/IkonicGames"><i class="fa fa-github-square fa-5x icon-github sidebar-icon"></i></a>
+            <a href="/feed.xml"><i class="fa fa-rss-square fa-5x icon-rss sidebar-icon"></i></a>
         </span>
         <hr>
 
@@ -119,6 +141,7 @@
         <!--End mc_embed_signup-->
     </div>
 
+    <div class="sidebar-panel">
     <p class="floating-header">Tags</p>
     <hr>
 
@@ -132,6 +155,7 @@
             testing
         </a>
         
+    </div>
     </div>
 
 </div>

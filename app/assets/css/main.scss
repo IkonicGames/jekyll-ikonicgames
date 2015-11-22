@@ -37,9 +37,10 @@ $grey-color-ultra-dark: darken($grey-color, 40%);
 /*
  * Dimensions
  */
-$screen-lg:   1000px;
-$screen-md:   800px;
-$screen-sm:   350px;
+$screen-lg:   1400px;
+$screen-md:   1100px;
+$screen-sm:   900px;
+$screen-mb:   750px;
 
 $spacing-unit:     32px;
 
@@ -82,5 +83,6 @@ $spacing-unit:     32px;
         "contact",
         "message",
         "sidebar",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "hamburgler"
 ;

@@ -1,12 +1,12 @@
 <div class="sidebar">
     <p class="floating-header">Follow Ikonic Games</p>
 
-    <div class="panel">
+    <div class="panel sidebar-panel">
         <span class="icon-container">
-            <a href="https://twitter.com/ikonicgames/"><i class="fa fa-twitter-square fa-5x icon-twitter"></i></a>
-            <a href="https://facebook.com/ikonicgames/"><i class="fa fa-facebook-square fa-5x icon-facebook"></i></a>
-            <a href="https://github.com/IkonicGames"><i class="fa fa-github-square fa-5x icon-github"></i></a>
-            <a href="/feed.xml"><i class="fa fa-rss-square fa-5x icon-rss"></i></a>
+            <a href="https://twitter.com/ikonicgames/"><i class="fa fa-twitter-square fa-5x icon-twitter sidebar-icon"></i></a>
+            <a href="https://facebook.com/ikonicgames/"><i class="fa fa-facebook-square fa-5x icon-facebook sidebar-icon"></i></a>
+            <a href="https://github.com/IkonicGames"><i class="fa fa-github-square fa-5x icon-github sidebar-icon"></i></a>
+            <a href="/feed.xml"><i class="fa fa-rss-square fa-5x icon-rss sidebar-icon"></i></a>
         </span>
         <hr>
 
@@ -34,6 +34,7 @@
         <!--End mc_embed_signup-->
     </div>
 
+    <div class="sidebar-panel">
     <p class="floating-header">Tags</p>
     <hr>
 
@@ -47,6 +48,7 @@
             {{ tag[0] | replace:'-', ' ' }}
         </a>
         {% endfor %}
+    </div>
     </div>
 
 </div>

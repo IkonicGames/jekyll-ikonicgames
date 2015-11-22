@@ -1,9 +1,12 @@
 .sidebar {
-  //margin-top: $spacing-unit / 2;
+  margin-top: $spacing-unit / 2;
+}
+
+.sidebar-panel {
+  margin-bottom: $spacing-unit / 2;
 }
 
 .floating-header {
-  margin-top: $spacing-unit / 2;
   text-shadow: 2px 2px 3px $grey-color-light;
   color: $grey-color-dark;
   font-weight: $font-weight-medium;
@@ -57,10 +60,36 @@
   font-weight: $font-weight-medium;
   color: $grey-color-dark;
   background: $grey-color-ultra-light;
-  border: 1p solid $grey-color-dark;
+  //border: 1px solid $grey-color-light;
   padding: 4px 8px;
 
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+
+  -webkit-box-shadow: 0 1px 3px 2px $grey-color;
+  -moz-box-shadow: 0 1px 3px 2px $grey-color;
+  box-shadow: 0 1px 3px 2px $grey-color;
+}
+
+.sidebar-icon {
+  font-size: 5em !important;
+}
+
+@include media-query($screen-md) {
+  .sidebar-icon {
+    font-size: 4em !important;
+  }
+}
+
+@include media-query($screen-sm) {
+  .sidebar-icon {
+    font-size: 3em !important;
+  }
+}
+
+@include media-query($screen-mb) {
+  .sidebar-icon {
+    font-size: 5em !important;
+  }
 }
