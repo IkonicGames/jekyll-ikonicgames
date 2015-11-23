@@ -12,3 +12,19 @@ header.post {
 .disqus-comments {
   margin: $spacing-unit / 2;
 }
+
+.post-meta {
+  .author {
+    padding-right: $spacing-unit / 2;
+
+    i {
+      text-align: center;
+      font-weight: $font-weight-medium;
+      color: $brand-primary;
+    }
+  }
+  
+  .date {
+    float: right;
+  }
+}

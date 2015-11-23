@@ -5,7 +5,11 @@ layout: page-sidebar
 
   <header class="post">
     <img class="border" src="{{ page.image }}">
-    <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <span class="post-meta">
+      <span class="author">{% if page.author %} By: <i>{{ page.author }}{% endif %}</i></span>
+      <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
+      <span class="meta">{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+    </span>
   </header>
   <hr>
   <article class="post">

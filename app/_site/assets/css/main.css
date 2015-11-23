@@ -185,6 +185,15 @@ header.post {
 .disqus-comments {
   margin: 16px; }
 
+.post-meta .author {
+  padding-right: 16px; }
+  .post-meta .author i {
+    text-align: center;
+    font-weight: 500;
+    color: #FF0043; }
+.post-meta .date {
+  float: right; }
+
 .header {
   height: 72px;
   background-color: black; }
@@ -308,13 +317,6 @@ nav {
 
 .jumbotron {
   height: 256px; }
-
-.jumbotron-page-title {
-  font-size: 30px;
-  font-weight: 500;
-  color: white; }
-  .jumbotron-page-title h1 {
-    color: white; }
 
 .jumbotron-gradient {
   border-bottom: 8px solid #FF0043;
