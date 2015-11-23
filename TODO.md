@@ -1,6 +1,6 @@
 #Version 1.0#
 
-- [ ] Landing Page
+- [x] Landing Page
 - [x] Verify contact form
 - [x] Add license
 - [x] Proof Read
@@ -12,6 +12,6 @@
 #Backlog#
 
 - [ ] Create git hooks
-- [ ] Add comments to posts via disqus?
+- [x] Add comments to posts via disqus?
 - [ ] Plan games folder organization (Game should be held in private repositories)
-- [ ] Change Blog from directory /jekyll to /Blog
+- [x] Change Blog from directory /jekyll to /Blog

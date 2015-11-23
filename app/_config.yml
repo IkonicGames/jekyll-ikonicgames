@@ -14,9 +14,7 @@ one_liner: Developing HTML5 and crossplatform games like it's going out of style
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ikonicgames.com" # the base hostname & protocol for your site
 
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_permalink_style: pretty
+permalink: /blog/:categories/:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown

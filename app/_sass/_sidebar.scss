@@ -52,16 +52,16 @@
   border: none;
 }
 
-.tag-cloud {
+.cat-cloud {
   margin-bottom: $spacing-unit;
 }
 
-.site-tag {
+.site-cat {
   font-weight: $font-weight-medium;
   color: $grey-color-dark;
   background: $grey-color-ultra-light;
-  //border: 1px solid $grey-color-light;
   padding: 4px 8px;
+  margin-right: $spacing-unit / 4;
 
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;

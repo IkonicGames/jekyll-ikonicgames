@@ -422,14 +422,15 @@ nav {
   width: 100%;
   border: none; }
 
-.tag-cloud {
+.cat-cloud {
   margin-bottom: 32px; }
 
-.site-tag {
+.site-cat {
   font-weight: 500;
   color: #424242;
   background: #e8e8e8;
   padding: 4px 8px;
+  margin-right: 8px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
