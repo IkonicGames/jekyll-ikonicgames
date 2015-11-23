@@ -1,3 +1,6 @@
+# Local settings
+host: 0.0.0.0
+
 # Site settings
 title: Ikonic Games
 email: egunn at ikonicgames.com

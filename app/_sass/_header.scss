@@ -23,17 +23,16 @@
 
 nav {
   float: right;
-  height: 72px;
   margin-right: $spacing-unit;
   font-size: 24px;
-
+  
   a {
     display: inline-block;
     cursor: pointer;
     color: white;
     font-weight: $font-weight-medium;
-    padding: 18px $spacing-unit / 4;
     text-decoration: none;
+    padding: 18px $spacing-unit / 4;
 
     -webkit-transition: all $ease-time ease;
     -moz-transition: all $ease-time ease;
@@ -52,7 +51,22 @@ nav {
 }
 
 @include media-query($screen-sm) {
+  .header {
+    height: auto;
+  }
+
   nav {
-    display: none;
+    background: black;
+    border-top: 3px solid $grey-color-dark;
+    float: none;
+    text-align: center;
+    margin: 0;
+
+    a {
+      display: block;
+      margin: 0 $spacing-unit / 2;
+      padding: $spacing-unit / 4;
+      border-bottom: 1px solid $grey-color-dark;
+    }
   }
 }
