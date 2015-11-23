@@ -33,13 +33,14 @@
   color:#fff;
 }
 
-#portfolio-list .portfolio {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  width:23%;
-  margin:3% 1%;
-  float: left;
+#portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .portfolio {
+    padding: $spacing-unit / 2;
+  }
 }
 
 .portfolio {
@@ -56,9 +57,4 @@
   font-size: $base-font-size * 0.8;
   padding: 2px 4px;
   background: $grey-color-ultra-light;
-}
-
-.portfolio__sizer {
-  visibility: hidden;
-  height: 215px;
 }

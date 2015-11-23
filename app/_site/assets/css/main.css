@@ -292,13 +292,12 @@ nav {
   background: #FF0043;
   color: #fff; }
 
-#portfolio-list .portfolio {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  width: 23%;
-  margin: 3% 1%;
-  float: left; }
+#portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #portfolio-list .portfolio {
+    padding: 16px; }
 
 .portfolio {
   overflow: hidden;
@@ -310,10 +309,6 @@ nav {
   font-size: 12.8px;
   padding: 2px 4px;
   background: #e8e8e8; }
-
-.portfolio__sizer {
-  visibility: hidden;
-  height: 215px; }
 
 .jumbotron {
   height: 256px; }
