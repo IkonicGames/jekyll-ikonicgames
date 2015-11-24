@@ -25,7 +25,11 @@ nav {
   float: right;
   margin-right: $spacing-unit;
   font-size: 24px;
-  
+
+  .active {
+    background-color: $brand-primary;
+  }
+
   a {
     display: inline-block;
     cursor: pointer;
@@ -34,10 +38,10 @@ nav {
     text-decoration: none;
     padding: 18px $spacing-unit / 4;
 
-    -webkit-transition: all $ease-time ease;
-    -moz-transition: all $ease-time ease;
-    -o-transition: all $ease-time ease;
-    transition: all $ease-time ease;
+    -webkit-transition: color $ease-time ease;
+    -moz-transition: color $ease-time ease;
+    -o-transition: color $ease-time ease;
+    transition: color $ease-time ease;
   }
   
   a:hover {
@@ -57,7 +61,7 @@ nav {
 
   nav {
     background: black;
-    border-top: 3px solid $grey-color-dark;
+    border-top: 3px solid $brand-primary;
     float: none;
     text-align: center;
     margin: 0;

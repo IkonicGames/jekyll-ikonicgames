@@ -176,6 +176,30 @@ pre {
 /**
  * Clearfix
  */
+.post-preview {
+  border-bottom: 1px solid #1c1c1c;
+  padding-bottom: 32px;
+  margin-bottom: 64px; }
+  .post-preview #title {
+    border-left: 2px solid #FF0043;
+    padding: 0 16px;
+    margin: 16px 0; }
+    .post-preview #title h2 {
+      color: #FF0043; }
+    .post-preview #title #author {
+      padding-right: 8px; }
+      .post-preview #title #author i {
+        font-weight: 500; }
+    .post-preview #title #date {
+      padding-left: 8px; }
+  .post-preview #read-more {
+    float: right; }
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px; }
+
 header.post {
   margin-top: 16px; }
 
@@ -213,6 +237,8 @@ nav {
   float: right;
   margin-right: 32px;
   font-size: 24px; }
+  nav .active {
+    background-color: #FF0043; }
   nav a {
     display: inline-block;
     cursor: pointer;
@@ -220,10 +246,10 @@ nav {
     font-weight: 500;
     text-decoration: none;
     padding: 18px 8px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease; }
   nav a:hover {
     background: #FF0043;
     -webkit-transition: all 0.3s ease;
@@ -237,7 +263,7 @@ nav {
 
   nav {
     background: black;
-    border-top: 3px solid #424242;
+    border-top: 3px solid #FF0043;
     float: none;
     text-align: center;
     margin: 0; }

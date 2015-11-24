@@ -11,7 +11,8 @@
 
 #Backlog#
 
-- [ ] Create git hooks
+- [ ] Create git hooks?
 - [x] Add comments to posts via disqus?
 - [ ] Plan games folder organization (Game should be held in private repositories)
 - [x] Change Blog from directory /jekyll to /Blog
+- [ ] Fix sitemap generator not running.
