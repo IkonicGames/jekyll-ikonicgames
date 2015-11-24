@@ -21,4 +21,4 @@ markdown: kramdown
 
 #gems:
 #  - jekyll-minifier
-
+#  - jekyll-sitemap
