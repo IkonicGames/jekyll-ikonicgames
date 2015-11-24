@@ -83,6 +83,9 @@ a {
   color: #FF0043;
   text-decoration: none; }
 
+p {
+  padding: .5em 0; }
+
 h1, h2, h3, h4, h5 {
   color: #1c1c1c;
   font-weight: 700; }
@@ -275,7 +278,7 @@ nav {
 .footer {
   padding: 16px 0;
   background: #424242;
-  color: #828282; }
+  color: #c2c2c2; }
   .footer h4 {
     color: white;
     font-weight: 500; }
