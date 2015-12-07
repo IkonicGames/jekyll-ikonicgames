@@ -16,6 +16,7 @@ layout: page-sidebar
     {{ content }}
   </article>
 
+{% if site.production %}
   <div class="disqus-comments">
     {% if page.comments %}
     <div id="disqus_thread"></div>
@@ -41,5 +42,6 @@ layout: page-sidebar
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
     {% endif %}
   </div>
+{% endif %}
 
 </div>

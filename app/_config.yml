@@ -1,5 +1,6 @@
 # Local settings
 host: 0.0.0.0
+production: false
 
 # Site settings
 title: Ikonic Games
