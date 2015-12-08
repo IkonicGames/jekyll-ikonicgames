@@ -31,6 +31,7 @@ $brand-secondary: #4A90E2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 25%);
 $grey-color-ultra-light: lighten($grey-color, 40%);
+$grey-color-ultra-ultra-light: lighten($grey-color, 45%);
 $grey-color-dark:  darken($grey-color, 25%);
 $grey-color-ultra-dark: darken($grey-color, 40%);
 
@@ -43,6 +44,7 @@ $screen-sm:   900px;
 $screen-mb:   750px;
 
 $spacing-unit:     32px;
+$border-radius:    4px;
 
 
 // Using media queries with like this:
