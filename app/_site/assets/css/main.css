@@ -108,12 +108,25 @@ h4 {
 h5 {
   font-size: 10.56px; }
 
+ul, ol {
+  padding-left: 1.5em; }
+
 img.border {
   max-width: 100%;
   max-height: 100%;
   -webkit-box-shadow: 0 0 3px 2px #c2c2c2;
   -moz-box-shadow: 0 0 3px 2px #c2c2c2;
   box-shadow: 0 0 3px 2px #c2c2c2; }
+
+blockquote {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: whitesmoke;
+  border-left: 2px solid #828282;
+  font-style: italic; }
 
 .panel {
   background-color: #e8e8e8;
@@ -208,6 +221,9 @@ pre {
 
 header.post {
   margin-top: 16px; }
+
+article.post img {
+  max-width: 100%; }
 
 .post-listing-small a h2 {
   color: #FF0043; }

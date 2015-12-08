@@ -3,6 +3,12 @@ header.post {
   //margin-bottom: $spacing-unit / 2;
 }
 
+article.post {
+  img {
+    max-width: 100%;
+  }
+}
+
 .post-listing-small {
   a h2 {
     color: $brand-primary;
