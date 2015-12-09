@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ikonic Games</title>
-    <description>Ikonic Games @IkonicGames is a one-man game development &#39;studio&#39;, currently based somewhere in South America.  I like making games that everyone can play and nobody wants to put down.</description>
+    <description>Ikonic Games @IkonicGames is a game develoment studio specializing in HTML5 crossbrowser games.  Please visit our contact page or use any of our social media contacts if you are interested in licensing our games.</description>
     <link>http://ikonicgames.com/</link>
     <atom:link href="http://ikonicgames.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Dec 2015 21:32:45 -0500</pubDate>
-    <lastBuildDate>Mon, 07 Dec 2015 21:32:45 -0500</lastBuildDate>
+    <pubDate>Wed, 09 Dec 2015 10:33:06 -0500</pubDate>
+    <lastBuildDate>Wed, 09 Dec 2015 10:33:06 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Framework Selection</title>
+        <title>Selecting a Game Framework</title>
         <description>&lt;p&gt;Choosing the correct game framework can be tricky, and is something that a lot of developers can have issues with.  If you are looking for the right framework to develop and release your game(s), it is critical that you take a directed and objective approach, otherwise you may find yourself playing with every framework under the sun or having to switch frameworks halfway into development.&lt;/p&gt;
 
 &lt;p&gt;To help ensure that you don’t find yourself in a bad situation in the future, I have outlined the that I followed recently to select an HTML5 framework.  It really wasn’t that difficult and the amount of time it saved me is likely HUGE.&lt;/p&gt;
@@ -97,7 +97,7 @@
 &lt;h3 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h3&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;At this point you want to figure out which engines actually fit your needs. To do this, simply create a spreadsheet of the frameworks and how they match up with the requirements.  This is often referred to as a &lt;a href=&quot;https://www.google.com.ec/search?q=feature+comparison+matrix&amp;amp;espv=2&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=0ahUKEwiLw_Thh8vJAhVH2B4KHfAFDpIQ_AUIBygB&amp;amp;biw=1440&amp;amp;bih=805&quot;&gt;Feature Comparison Matrix&lt;/a&gt;.  Yours doesn’t need to look as nice as some of those do.  Function over form in this case.  Just make a quick spreadsheet.&lt;/p&gt;
+&lt;p&gt;At this point you want to figure out which engines actually fit your needs. To do this, simply create a spreadsheet of the frameworks and how they match up with the requirements.  This is often referred to as a &lt;a href=&quot;https://www.google.com.ec/search?q=feature+comparison+matrix&amp;amp;espv=2&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=0ahUKEwiLw_Thh8vJAhVH2B4KHfAFDpIQ_AUIBygB&amp;amp;biw=1440&amp;amp;bih=805&quot;&gt;Feature Comparison Matrix&lt;/a&gt; which I will now refer to as FCM.  Yours doesn’t need to look as nice as some of those do.  Function over form in this case.  Just make a quick spreadsheet.&lt;/p&gt;
 
 &lt;p&gt;Now that you have your FCM, you are ready to sort it.  You want the best fit at the top and the worst at the bottom.  However, this matrix alone isn’t going to make that particularly easy.  To really do a good job at this, you need to familiarize yourself with each framework, one at a time.  Not to gain an expert understanding of each, simply to be confident that it actually fits your requirements and that there are no obvious surprises.&lt;/p&gt;
 
@@ -119,7 +119,7 @@
   &lt;li&gt;&lt;strong&gt;Create a bare minimum menu system.&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Main Menu - Play button.&lt;/li&gt;
-      &lt;li&gt;Pause Menu - Resume, restart, quit buttons.&lt;/li&gt;
+      &lt;li&gt;Pause Menu - Resume, restart and quit buttons.&lt;/li&gt;
       &lt;li&gt;Game Over Menu - Play again and quit buttons and display high score.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -137,46 +137,44 @@
 &lt;p&gt;Finally, it is time to make your choice.  Depending on the type of game frameworks you are trying out, this process could take you a day or a couple of weeks.  Either way, you have made it.  You have gathered the information you needed so that you could make an informed decision with confidence.&lt;/p&gt;
 
 &lt;p&gt;If you find that the decision isn’t clear at this point, it is worth it to step back from the actual decision and simply think about &lt;em&gt;why&lt;/em&gt; it isn’t clear.  Once you have this figured out, you have your new goal and you simply need to evaluate the engines and potentially do a bit more prototyping until you reach a conclusion.&lt;/p&gt;
+
+&lt;p&gt;While this was a quick and brief overview, it is a great jumpstart if you have never had a process for selecting game frameworks (or any software really) in the past.  Feel free to comment below with questions or you can find me at any of the social media profiles in the sidebar as well.&lt;/p&gt;
 </description>
         <pubDate>Sun, 25 Oct 2015 18:59:59 -0500</pubDate>
-        <link>http://ikonicgames.com/blog/jekyll/update/2015/10/25/Framework%20Selection.html</link>
-        <guid isPermaLink="true">http://ikonicgames.com/blog/jekyll/update/2015/10/25/Framework%20Selection.html</guid>
+        <link>http://ikonicgames.com/blog/tutorial/2015/10/25/Framework%20Selection.html</link>
+        <guid isPermaLink="true">http://ikonicgames.com/blog/tutorial/2015/10/25/Framework%20Selection.html</guid>
         
         <category>template</category>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>tutorial</category>
         
       </item>
     
       <item>
         <title>New Ikonic Games Website</title>
-        <description>&lt;p&gt;Welcome to the new Ikonic Games website!  The new design will allow me to deliver much higher quality content and showcase my games that will be available for play and licensing.  Here is a quick outline of my goals with this relaunch.&lt;/p&gt;
+        <description>&lt;p&gt;Hi, hi!  Welcome, come in.  Welcome to the new Ikonic Games website!  I hope you like the new design and the improved content that it will allow me to deliver.  Here is a quick outline of my goals with this relaunch.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-blog&quot;&gt;The Blog&lt;/h2&gt;
 
-&lt;p&gt;Most of the developers that I follow, I follow because of the content that they share with the game development community.  They are often posting “back stage” glimpses of their design processes as well as tutorials on various tools.  Without these insights I would not be the developer I am today.  I’ll be offering these same kinds of insights for other devs in hopes of giving back to a community that has already given so much.&lt;/p&gt;
+&lt;p&gt;Most of the developers that I follow, I follow because of the content that they share with the game development community.  They are often posting “back stage” glimpses of their design processes as well as tutorials on various tools.  Without these insights I would not be the developer I am today.  I’ll be offering the same kind of insights for other devs in hopes of giving back to a community that has already given me so much.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-games&quot;&gt;The Games&lt;/h2&gt;
 
-&lt;p&gt;Initially, my games will exclusively target HTML5 mobile and desktop browsers, leaning toward mobile.  This is a market that is still relatively new, and while HTML5 games are current “fad”, the games that I am looking to produce will target a niche market that I plan to gain a solid foothold in.  Additionally, having such a narrow focus will make it easier to demonstrate and develop my expertise.&lt;/p&gt;
+&lt;p&gt;Initially, my games will exclusively target HTML5 mobile and desktop browsers, leaning toward mobile.  &lt;strong&gt;This is a market that is still relatively new, and while HTML5 games are current “fad”, the games that I am looking to produce will target a niche market that I plan to gain a solid foothold in.  Additionally, having such a narrow focus will make it easier to demonstrate and develop my expertise.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;After establishing myself in the HTML5 market, I will branch out into others as time permits.  The most likely order will be flash(hopefully), mobile and then desktop.  Flash is listed first because, if I use the correct framework, it is likely the easiest platform to simultaneously target.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;After establishing myself in the HTML5 market, I will branch out into others as time permits.  The most likely order will be flash(hopefully), mobile and then desktop.  Flash is listed first because, if I use the correct framework, it is likely the easiest platform to simultaneously target.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Anyway, have a look around at the new site and if you have any feedback or comments, &lt;strong&gt;leave them below or shoot me a message on any of the social media profiles linked in the sidebar to the right&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In the mean time, have a look around at the new site and if you have any feedback or comments, leave them below or shoot me a message on any of the social media profiles linked in the sidebar.&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Oct 2015 18:59:59 -0500</pubDate>
-        <link>http://ikonicgames.com/blog/jekyll/update/2015/10/21/Intro.html</link>
-        <guid isPermaLink="true">http://ikonicgames.com/blog/jekyll/update/2015/10/21/Intro.html</guid>
+        <link>http://ikonicgames.com/blog/news/2015/10/21/Intro.html</link>
+        <guid isPermaLink="true">http://ikonicgames.com/blog/news/2015/10/21/Intro.html</guid>
         
         <category>template</category>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>news</category>
         
       </item>
     
@@ -205,11 +203,24 @@
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-haxe&quot; data-lang=&quot;haxe&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;groupByHash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Iterable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transformer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Hash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transformer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transformer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);}}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; r &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Hash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;gt;();&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// go through the Iterable and add elements to Hash entries based on their transform&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; t &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;transformer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;    
+            &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; l &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;();&lt;/span&gt;
+
+            &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 

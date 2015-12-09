@@ -15,12 +15,25 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight haxe %}
+public static function groupByHash<A,B>(it : Iterable<A>, ?transformer : A -> String) : Hash<List<A>> {
+    if (transformer == null) {transformer = function(x) {return Std.string(x);}}
+
+    var r = new Hash<List<A>>(); 
+    for ( i in it){ // go through the Iterable and add elements to Hash entries based on their transform
+        var t = transformer(i);
+
+        if (! r.exists(t)){    
+            var l = new List<A>();
+
+            l.add(i);
+            r.set(t,l);
+        }
+        else { r.get(t).add(i); }
+    }
+
+    return r;
+}
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].

@@ -3,7 +3,7 @@
     
     
     <url>
-        <loc>http://ikonicgames.com/blog/jekyll/update/2015/10/25/Framework%20Selection.html</loc>
+        <loc>http://ikonicgames.com/blog/tutorial/2015/10/25/Framework%20Selection.html</loc>
         
         <lastmod>2015-10-25T18:59:59-05:00</lastmod>
         
@@ -18,7 +18,7 @@
     
     
     <url>
-        <loc>http://ikonicgames.com/blog/jekyll/update/2015/10/21/Intro.html</loc>
+        <loc>http://ikonicgames.com/blog/news/2015/10/21/Intro.html</loc>
         
         <lastmod>2015-10-21T18:59:59-05:00</lastmod>
         
@@ -66,7 +66,7 @@
     <url>
         <loc>http://ikonicgames.com/404.html</loc>
         
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -81,67 +81,7 @@
     <url>
         <loc>http://ikonicgames.com/feed.xml</loc>
         
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
-        
-        
-        <changefreq>monthly</changefreq>
-        
-        
-        <priority>0.3</priority>
-        
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://ikonicgames.com/blog/</loc>
-        
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
-        
-        
-        <changefreq>monthly</changefreq>
-        
-        
-        <priority>0.3</priority>
-        
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://ikonicgames.com/about/</loc>
-        
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
-        
-        
-        <changefreq>monthly</changefreq>
-        
-        
-        <priority>0.3</priority>
-        
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://ikonicgames.com/contact/</loc>
-        
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
-        
-        
-        <changefreq>monthly</changefreq>
-        
-        
-        <priority>0.3</priority>
-        
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://ikonicgames.com/</loc>
-        
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -156,7 +96,67 @@
     <url>
         <loc>http://ikonicgames.com/html5-games/</loc>
         
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://ikonicgames.com/blog/</loc>
+        
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://ikonicgames.com/contact/</loc>
+        
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://ikonicgames.com/</loc>
+        
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://ikonicgames.com/about/</loc>
+        
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -171,7 +171,7 @@
     <url>
         <loc>http://ikonicgames.com/assets/css/main.css</loc>
         
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -186,7 +186,7 @@
     <url>
         <loc>http://ikonicgames.com/sitemap.xml</loc>
         
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -201,7 +201,7 @@
     <url>
         <loc>http://ikonicgames.com/contact/thankyou.html</loc>
         
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -216,7 +216,7 @@
     <url>
         <loc>http://ikonicgames.com/categories/jekyll/</loc>
         
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -231,7 +231,37 @@
     <url>
         <loc>http://ikonicgames.com/categories/update/</loc>
         
-        <lastmod>2015-12-07T21:32:45-05:00</lastmod>
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://ikonicgames.com/categories/news/</loc>
+        
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    
+    
+    <url>
+        <loc>http://ikonicgames.com/categories/tutorial/</loc>
+        
+        <lastmod>2015-12-09T10:33:06-05:00</lastmod>
         
         
         <changefreq>monthly</changefreq>

@@ -1,6 +1,6 @@
 # Local settings
 host: 0.0.0.0
-production: true
+production: false
 
 # Site settings
 title: Ikonic Games
@@ -8,7 +8,7 @@ email: egunn at ikonicgames.com
 twitter_username: IkonicGames
 github_username:  IkonicGames
 facebook_username: IkonicGames
-description: Ikonic Games @IkonicGames is a one-man game development 'studio', currently based somewhere in South America.  I like making games that everyone can play and nobody wants to put down.
+description: Ikonic Games @IkonicGames is a game develoment studio specializing in HTML5 crossbrowser games.  Please visit our contact page or use any of our social media contacts if you are interested in licensing our games.
 one_liner: Developing HTML5 and crossplatform games like it's going out of style.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ikonicgames.com" # the base hostname & protocol for your site
