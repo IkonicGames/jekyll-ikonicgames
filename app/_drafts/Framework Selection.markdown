@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Framework Selection"
+title:  "Selecting a Game Framework"
 tags:   template
 date:   2015-10-25 23:59:59
-image:  /assets/images/blog/11-18-2015.jpeg
-image-attrib:   https://unsplash.com/photos/CoD2Q92UaEg
+image:  /assets/images/blog/headers/A_Game_Of_Thrones_board_game_detail.jpg
+<!-- image-attrib:   https://unsplash.com/photos/CoD2Q92UaEg -->
 comments: true
 author: Erin Gunn
-categories: jekyll update
+categories: tutorial
 ---
 
 Choosing the correct game framework can be tricky, and is something that a lot of developers can have issues with.  If you are looking for the right framework to develop and release your game(s), it is critical that you take a directed and objective approach, otherwise you may find yourself playing with every framework under the sun or having to switch frameworks halfway into development.
@@ -84,7 +84,7 @@ These are the frameworks that I ended up gathering for through my searching.  I 
 ###Evaluation###
 ***
 
-At this point you want to figure out which engines actually fit your needs. To do this, simply create a spreadsheet of the frameworks and how they match up with the requirements.  This is often referred to as a [Feature Comparison Matrix](https://www.google.com.ec/search?q=feature+comparison+matrix&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiLw_Thh8vJAhVH2B4KHfAFDpIQ_AUIBygB&biw=1440&bih=805).  Yours doesn't need to look as nice as some of those do.  Function over form in this case.  Just make a quick spreadsheet.
+At this point you want to figure out which engines actually fit your needs. To do this, simply create a spreadsheet of the frameworks and how they match up with the requirements.  This is often referred to as a [Feature Comparison Matrix](https://www.google.com.ec/search?q=feature+comparison+matrix&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiLw_Thh8vJAhVH2B4KHfAFDpIQ_AUIBygB&biw=1440&bih=805) which I will now refer to as FCM.  Yours doesn't need to look as nice as some of those do.  Function over form in this case.  Just make a quick spreadsheet.
 
 Now that you have your FCM, you are ready to sort it.  You want the best fit at the top and the worst at the bottom.  However, this matrix alone isn't going to make that particularly easy.  To really do a good job at this, you need to familiarize yourself with each framework, one at a time.  Not to gain an expert understanding of each, simply to be confident that it actually fits your requirements and that there are no obvious surprises.
 
@@ -104,7 +104,7 @@ The purpose of this step is to actually try out some of the features of the best
 *	**Include placeholder graphics, sounds and work with config files.**  You want to try out the asset pipeline.
 *	**Create a bare minimum menu system.**
 	*	Main Menu - Play button.
-	*	Pause Menu - Resume, restart, quit buttons.
+	*	Pause Menu - Resume, restart and quit buttons.
 	*	Game Over Menu - Play again and quit buttons and display high score.
 *	For any of your requirements that are not necessarily generic, **implement the bare minumum to test out how that requirement works in each framework.**
 
@@ -119,3 +119,5 @@ While it is not necessary to finish and polish the prototypes, you should at lea
 Finally, it is time to make your choice.  Depending on the type of game frameworks you are trying out, this process could take you a day or a couple of weeks.  Either way, you have made it.  You have gathered the information you needed so that you could make an informed decision with confidence.
 
 If you find that the decision isn't clear at this point, it is worth it to step back from the actual decision and simply think about *why* it isn't clear.  Once you have this figured out, you have your new goal and you simply need to evaluate the engines and potentially do a bit more prototyping until you reach a conclusion.
+
+While this was a quick and brief overview, it is a great jumpstart if you have never had a process for selecting game frameworks (or any software really) in the past.  Feel free to comment below with questions or you can find me at any of the social media profiles in the sidebar as well.
