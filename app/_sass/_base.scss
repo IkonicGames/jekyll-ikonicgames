@@ -190,10 +190,8 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    font-family: "Source Code Pro";
+    font-size: 13px;
 }
 
 code {
@@ -201,7 +199,7 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
+    padding: $spacing-unit / 2 $spacing-unit / 2;
     overflow-x: scroll;
 
     > code {
